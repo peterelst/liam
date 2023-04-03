@@ -1,77 +1,77 @@
 var legend = [
   // standard js words
-  { search: 'break', replace: '!HODOR;;;' },
-  { search: 'case', replace: '?hooDooRrr' },
-  { search: 'catch', replace: '!!!HODOR!!!' },
-  { search: 'else', replace: 'hoDOR!!!' },
-  { search: 'for', replace: 'HODOR{}' },
-  { search: 'function', replace: 'HoDoRHoDoR' },
-  { search: 'if', replace: 'HOdor!!!' },
-  { search: 'instanceof', replace: 'hodorhodorho' },
-  { search: 'new', replace: 'HHHOOODDDDOOORRR!!!' },
-  { search: 'return', replace: 'HODOR::' },
-  { search: 'switch', replace: 'HODORHODOR' },
-  { search: 'throw', replace: '!hOdor!' },
-  { search: 'try', replace: '!hodOr!' },
-  { search: 'typeof', replace: 'Hodor?????????!?!?!?!?' },
-  { search: 'var', replace: '$HODOR:' },
-  { search: 'while', replace: 'hodor............' },
-  { search: 'console.log', replace: 'hodor.hod' },
+  { search: 'break', replace: '!LIAM;;;' },
+  { search: 'case', replace: '?liiAiiMmm' },
+  { search: 'catch', replace: '!!!LIAM!!!' },
+  { search: 'else', replace: 'liAMM!!!' },
+  { search: 'for', replace: 'LIAM{}' },
+  { search: 'function', replace: 'LiAmMLiAiM' },
+  { search: 'if', replace: 'LIam!!!' },
+  { search: 'instanceof', replace: 'liamliamli' },
+  { search: 'new', replace: 'LLLIIIAAAMMM!!!' },
+  { search: 'return', replace: 'LIAM::' },
+  { search: 'switch', replace: 'LIAMLIAM' },
+  { search: 'throw', replace: '!lIam!' },
+  { search: 'try', replace: '!liaM!' },
+  { search: 'typeof', replace: 'Liam?????????!?!?!?!?' },
+  { search: 'var', replace: '$LIAM:' },
+  { search: 'while', replace: 'liam............' },
+  { search: 'console.log', replace: 'liam.li' },
 
   // most common letters that are not h, o, d or r
   // s a c m p t b f g i n e l w u v j k q y z x
   // "x "
-  { search: 's', replace: 'Hodor ' },
-  { search: 'a', replace: 'HODOR ' },
-  { search: 'c', replace: 'hodor ' },
+  { search: 's', replace: 'Liam ' },
+  { search: 'a', replace: 'LIAM ' },
+  { search: 'c', replace: 'liam ' },
   
   // "x. "
-  { search: 'm', replace: 'Hodor. ' },
-  { search: 'p', replace: 'HODOR. ' },
-  { search: 't', replace: 'hodor. ' },
+  { search: 'm', replace: 'Liam. ' },
+  { search: 'p', replace: 'LIAM. ' },
+  { search: 't', replace: 'liam. ' },
 
   // "x! "
-  { search: 'b', replace: 'Hodor! ' },
-  { search: 'f', replace: 'HODOR! ' },
-  { search: 'g', replace: 'hodor! ' },
+  { search: 'b', replace: 'Liam! ' },
+  { search: 'f', replace: 'LIAM! ' },
+  { search: 'g', replace: 'liam! ' },
 
   // "x? "
-  { search: 'i', replace: 'Hodor? ' },
-  { search: 'n', replace: 'HODOR? ' },
-  { search: 'e', replace: 'hodor? ' },
+  { search: 'i', replace: 'Liam? ' },
+  { search: 'n', replace: 'LIAM? ' },
+  { search: 'e', replace: 'liam? ' },
 
   // "x!? "
-  { search: 'l', replace: 'Hodor!? ' },
-  { search: 'w', replace: 'HODOR!? ' },
-  { search: 'u', replace: 'hodor!? ' },
+  { search: 'l', replace: 'Liam!? ' },
+  { search: 'w', replace: 'LIAM!? ' },
+  { search: 'u', replace: 'liam!? ' },
 
   // "x?! "
-  { search: 'v', replace: 'Hodor?! ' },
-  { search: 'j', replace: 'HODOR?! ' },
-  { search: 'k', replace: 'hodor?! ' },
+  { search: 'v', replace: 'Liam?! ' },
+  { search: 'j', replace: 'LIAM?! ' },
+  { search: 'k', replace: 'liam?! ' },
 
   // "x!?! "
-  { search: 'q', replace: 'Hodor!?! ' },
-  { search: 'y', replace: 'HODOR!?! ' },
-  { search: 'z', replace: 'hodor!?! ' },
+  { search: 'q', replace: 'Liam!?! ' },
+  { search: 'y', replace: 'LIAM!?! ' },
+  { search: 'z', replace: 'liam!?! ' },
 
   // "x?!? "
-  { search: 'x', replace: 'Hodor?!? ' },
-  { search: 'S', replace: 'HODOR?!? ' },
-  { search: 'A', replace: 'hodor?!? ' },
+  { search: 'x', replace: 'Liam?!? ' },
+  { search: 'S', replace: 'LIAM?!? ' },
+  { search: 'A', replace: 'liam?!? ' },
 
   // "x... "
-  { search: 'C', replace: 'Hodor... ' },
-  { search: 'M', replace: 'HODOR... ' },
-  { search: 'P', replace: 'hodor... ' },
+  { search: 'C', replace: 'Liam... ' },
+  { search: 'M', replace: 'LIAM... ' },
+  { search: 'P', replace: 'liam... ' },
 
   // "x-"
-  { search: 'T', replace: 'Hodor- ' },
-  { search: 'B', replace: 'HODOR- ' },
-  { search: 'F', replace: 'hodor- ' },
+  { search: 'T', replace: 'Liam- ' },
+  { search: 'B', replace: 'LIAM- ' },
+  { search: 'F', replace: 'liam- ' },
 
   // "prepending HoOodoOor"
-  { search: 'G', replace: 'HoOodoOorHodor ' },
+  { search: 'G', replace: 'LiIiiamIamLiam ' },
   { search: 'I', replace: 'HoOodoOorHODOR ' },
   { search: 'N', replace: 'HoOodoOorhodor ' },
 
